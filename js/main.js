@@ -1,4 +1,4 @@
-let video = document.getElementById("demo");
+const video = document.getElementById("demo");
 
 video.pause();
 setTimeout(() => {
