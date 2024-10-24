@@ -1,7 +1,7 @@
 let video = document.getElementById("demo");
 
-video.pause();
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("load", () => {
+  video.pause();
   setTimeout(() => {
     video.setAttribute("muted", true);
     video.setAttribute("loop", true);
