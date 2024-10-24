@@ -8,7 +8,6 @@ setTimeout(function () {
   video.setAttribute("playinline", true);
   video.setAttribute("autoplay", true);
   video.removeAttribute("controls");
-  video.removeAttribute("poster");
   video.dispatchEvent(new Event("click"));
   video.play();
 }, 1000);
