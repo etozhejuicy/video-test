@@ -21,7 +21,15 @@
       <div class="wrapper animation-inner">
         <div class="background-video">
           <div class="video-wrapper">
-            <video playsinline autoplay muted loop poster="./assets/bg.jpeg">
+            <video
+              id="demo"
+              preload="auto"
+              playsinline
+              autoplay
+              muted
+              loop
+              poster="./assets/bg.jpeg"
+            >
               <source src="./assets/bg.mp4" type="video/mp4" />
               <source src="./assets/bg.webm" type="video/webm" />
             </video>
@@ -457,6 +465,7 @@
       src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
     ></script>
     <script src="./js/app.min.js"></script>
+    <script src="./js/main.js"></script>
     <script
       defer
       src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
