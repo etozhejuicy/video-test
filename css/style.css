@@ -38,6 +38,22 @@
   object-fit: cover;
 }
 
+.bg-video {
+  display: block;
+}
+.bg-video-desktop {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .bg-video {
+    display: none;
+  }
+  .bg-video-desktop {
+    display: block;
+  }
+}
+
 .btn-hero:not(:hover) {
   background-color: rgba(0, 0, 0, 0.5);
 }
